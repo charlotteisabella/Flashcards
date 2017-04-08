@@ -6,6 +6,7 @@
   "scripts": {
     "compile": "webpack",
     "start": "node server.js",
+    "lint": "eslint --fix --cache src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,6 +25,10 @@
     "babel-loader": "^6.4.1",
     "babel-preset-latest": "^6.24.1",
     "babel-preset-react": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.3",
     "express": "^4.15.2",
     "react": "^15.5.3",
     "react-dom": "^15.5.3",
